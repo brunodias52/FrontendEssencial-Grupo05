@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="./assets/img/logo-favicon.png">
+        <title>Quem Somos</title>
+    </head>
+    <body>
+        <body>
+
+            <Header>
+             <!-- Menu Mobile -->
+            <nav class="mobile-container">
+                <!-- Navegação do menu mobile -->
+                <div class="topnav">
+                    <a href="./index.html" class="active"><img
+                            src="./assets/img/logo-serrapet.png" alt=""></a>
+                    <div id="myLinks">
+                        <a href="./index.html">Home</a>
+                        <a href="./carrossel.html">Quem somos</a>
+                        <a href="./contato.html">Contato</a>
+                        <a href="./contato.html">Colabore</a>
+                    </div>
+                    <a href="javascript:void(0);" class="icon"
+                        onclick="menuDrop()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </nav>
+
+            <!-- Menu PC -->
+            <nav class="navbar-pet">
+                <!-- Navegação do menu PC -->
+                <div class="leftside-pet">
+                    <ul class="font-pet">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./carrossel.html">Quem somos</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-mid">
+                    <img class="navbar-logo"
+                        src="./assets/img/logo-serrapet.png">
+                </div>
+                <div class="rightside-pet">
+                    <ul class="font-pet">
+                        <li><a href="./contato.html">Contato</a></li>
+                        <li><a href="./contato.html">Colabore</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="navbar-pet-line">
+                <a href="./cadastro.html">Cadastre-se</a>
+                <a href="./login.html">Login/</a>
+                <img src="./assets/img/login-avatar.png" alt="">
+            </div>
+        </Header>
+
+        <!-- Botão dark mode  -->
+
+        <img onclick="changeImage(); myFunction()" alt=""
+            src="https://cdn1.iconfinder.com/data/icons/photography-filled-line-2/32/Night_Mode_Moon_Dark_Effect-512.png"
+            id="imgClickAndChange" />
+
+            <!-- Carrossel -->
+            
+            <section id="slider">
+                <input type="radio" name="slider" id="s1">
+                <input type="radio" name="slider" id="s2">
+                <input type="radio" name="slider" id="s3" checked>
+                <input type="radio" name="slider" id="s4">
+                <input type="radio" name="slider" id="s5">
+                <input type="radio" name="slider" id="s6">
+                <input type="radio" name="slider" id="s7">
+                <label for="s1" id="slide1">
+                    <img src="./assets/img/Leandro ehalph.png" height="100%"
+                        width="100%">
+                </label>
+                <label for="s2" id="slide2">
+                    <img src="./assets/img/Dideco e Mel.png" height="100%"
+                        width="100%">
+                </label>
+                <label for="s3" id="slide3">
+                    <img src="./assets/img/Lucas e Coelho.png" height="100%"
+                        width="100%">
+                </label>
+                <label for="s4" id="slide4">
+                    <img src="./assets/img/Bruno e Tyron.png" height="100%"
+                        width="100%">
+                </label>
+                <label for="s5" id="slide5">
+                    <img src="./assets/img/Lucas Eu.png" height="100%" width="100%">
+                </label>
+                <label for="s6" id="slide6">
+                    <img src="./assets/img/Luis Felipe e Luna.png" height="100%"
+                        width="100%">
+                </label>
+                <label for="s7" id="slide7">
+                    <img src="./assets/img/Você & Eu (1).png" height="100%"
+                        width="100%">
+                </label>
+            </section>
+        
+            <p id="p-quem-somos">Somos um grupo muito unido e focado em aprender, além do fascínio pela tecnologia, descobrimos recentemente que compartilhamos um amor em comum, o amor pelos animais.
+                O intuíto da criação dessa página é para incentivar e conscientizar da importância sobre adoção de animais em Petrópolis.
+                Disponibilizando em nossa solução a divulgação e cadastro de pet’s para adoção, permitindo que os animais e seu novos donos tenham muitos momentos de alegria, diversão e paralelamente uma tratativa para minimizar o problema do abandono de animais nas ruas.</p>
+
+
+        <!-- FOOTER -->
+        <div class="gato-footer">
+            <img src="./assets/img/gato-preto.png" alt="">
+            <a href="#"><button>Voltar ao Topo</button></a>
+        </div>
+
+        <div class="linha"></div>
+        <div class="container-footer-pet">
+            <div class="divb">
+                <img class="logo-footer" src="./assets/img/logo-serrapet.png"
+                    alt="">
+                <p>© Copyright 2021</p>
+            </div>
+            <div class="divb">
+                <a href="./index.html">
+                    <h4>Home</h4>
+                </a>
+                <ul>
+                    <li><a href="./index.html">Adote com responsabilidade</a></li>
+                </ul>
+            </div>
+            <div class="divb">
+                <a href="./carrossel.html">
+                    <h4>Quem somos</h4>
+                </a>
+                <ul>
+                    <li><a href="./carrossel.html">Conheça nossa equipe</a></li>
+                </ul>
+            </div>
+            <div class="divb">
+                <a href="./contato.html">
+                    <h4>Divulgação</h4>
+                </a>
+                <ul>
+                    <li><a href="./contato.html">Cadastre um pet</a></li>
+                </ul>
+            </div>
+            <div class="divb">
+                <a href="./contato.html">
+                    <h4>Colabore</h4>
+                </a>
+                <ul>
+                    <li><a href="./contato.html">Doe qualquer valor</a></li>
+                    <li><a href="#">Compre nas lojas parceiras</a></li>
+                </ul>
+            </div>
+            <div class="divb">
+                <h4>Redes Sociais</h4>
+                <div class="social">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <script src="./assets/js/script.js"></script>
+        </body>
+    </html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="icon" href="./assets/img/logo-favicon.png">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <title>Contato</title>
+    </head>
+    <body>
+
+        <Header>
+            <!-- Menu Mobile -->
+            <nav class="mobile-container">
+                <!-- Navegação do menu mobile -->
+                <div class="topnav">
+                    <a href="./index.html" class="active"><img
+                            src="./assets/img/logo-serrapet.png" alt=""></a>
+                    <div id="myLinks">
+                        <a href="./index.html">Home</a>
+                        <a href="./carrossel.html">Quem somos</a>
+                        <a href="./contato.html">Contato</a>
+                        <a href="./contato.html">Colabore</a>
+                    </div>
+                    <a href="javascript:void(0);" class="icon"
+                        onclick="menuDrop()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </nav>
+
+            <!-- Menu PC -->
+            <nav class="navbar-pet">
+                <!-- Navegação do menu PC -->
+                <div class="leftside-pet">
+                    <ul class="font-pet">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./carrossel.html">Quem somos</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-mid">
+                    <img class="navbar-logo"
+                        src="./assets/img/logo-serrapet.png">
+                </div>
+                <div class="rightside-pet">
+                    <ul class="font-pet">
+                        <li><a href="./contato.html">Contato</a></li>
+                        <li><a href="./contato.html">Colabore</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="navbar-pet-line">
+                <a href="./cadastro.html">Cadastre-se</a>
+                <a href="./login.html">Login/</a>
+                <img src="./assets/img/login-avatar.png" alt="">
+            </div>
+        </Header>
+
+        <!-- Botão dark mode  -->
+
+        <img onclick="changeImage(); myFunction()" alt=""
+            src="https://cdn1.iconfinder.com/data/icons/photography-filled-line-2/32/Night_Mode_Moon_Dark_Effect-512.png"
+            id="imgClickAndChange" />
+
+            <!-- Formulário de Contato -->
+    
+        <form method="POST" action="">
+            <p class="titulo-form">Contato para Adoção, Cadastro de Pet's ou Doações</p>
+            <p class="name">
+                Nome: 
+                <input type="text" name="name" id="name">
+            </p>
+
+            <p class="email">Email: 
+                <input type="email" name="email" id="email"
+                    placeholder="exemplo@exemplo.com">
+            </p>
+            <p class="mensagem"> Mensagem:
+                <textarea name="messagem" placeholder="Digite sua mensagem..."></textarea>
+                </textarea>
+            </p>
+            <div style="text-align: center;"><button class="btn-contato"><a href="./contato.html">Enviar</a></button></div>
+            
+
+            <div class="maps">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.2552988551133!2d-43.211390084494475!3d-22.532107330274368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x990854afe3849f%3A0xafd20246b768238a!2sParque%20Tecnol%C3%B3gico%20Regi%C3%A3o%20Serrana!5e0!3m2!1spt-BR!2sbr!4v1635265842218!5m2!1spt-BR!2sbr"
+                    width="1920" style="border:0;" allowfullscreen=""
+                    loading="lazy"></iframe>
+            </div>
+        </form>
+     
+
+        <!-- FOOTER -->
+        <div class="gato-footer">
+            <img src="./assets/img/gato-preto.png" alt="">
+            <a href="#"><button>Voltar ao Topo</button></a>
+        </div>
+
+        <div class="linha"></div>
+        <div class="container-footer-pet">
+            <div class="divb">
+                <img class="logo-footer" src="./assets/img/logo-serrapet.png"
+                    alt="">
+                <p>© Copyright 2021</p>
+            </div>
+            <div class="divb">
+                <a href="./index.html">
+                    <h4>Home</h4>
+                </a>
+                <ul>
+                    <li><a href="./index.html">Adote com responsabilidade</a></li>
+                </ul>
+            </div>
+            <div class="divb">
+                <a href="./carrossel.html">
+                    <h4>Quem somos</h4>
+                </a>
+                <ul>
+                    <li><a href="./carrossel.html">Conheça nossa equipe</a></li>
+                </ul>
+            </div>
+            <div class="divb">
+                <a href="./contato.html">
+                    <h4>Divulgação</h4>
+                </a>
+                <ul>
+                    <li><a href="./contato.html">Cadastre um pet</a></li>
+                </ul>
+            </div>
+            <div class="divb">
+                <a href="./contato.html">
+                    <h4>Colabore</h4>
+                </a>
+                <ul>
+                    <li><a href="./contato.html">Doe qualquer valor</a></li>
+                    <li><a href="#">Compre nas lojas parceiras</a></li>
+                </ul>
+            </div>
+            <div class="divb">
+                <h4>Redes Sociais</h4>
+                <div class="social">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <script src="./assets/js/script.js"></script>
+    </body>
+</html>
